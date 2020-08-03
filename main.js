@@ -25,7 +25,6 @@ function pinInputBtn(pinNumer) {
 }
 
 // Check The pin Number Match or Not
-
 document.getElementById('submitBtn').addEventListener('click', function () {
 	const randomPin = document.getElementById('randomPinCode').value;
 	const inputPin = document.getElementById('pinOutput').value;
